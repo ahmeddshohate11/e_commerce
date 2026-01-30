@@ -1,6 +1,7 @@
 import 'package:e_commerce/core/constants/app_colors.dart';
 import 'package:e_commerce/core/constants/app_routes.dart';
 import 'package:e_commerce/core/constants/app_strings.dart';
+import 'package:e_commerce/features/auth/view/auth_viwe.dart';
 import 'package:e_commerce/features/home/view/home_view.dart';
 import 'package:e_commerce/features/splash/view/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
           routes: {
             AppRoutes.splash: (context) => const SplashScreen(),
             AppRoutes.home: (context) => const HomeView(),
+            AuthView.routeName: (context) =>  AuthView(),
           },
         );
       },

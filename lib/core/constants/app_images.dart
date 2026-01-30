@@ -6,4 +6,5 @@ class AppImages {
   static const String ellips = 'assets/images/ellips.png'; 
    static const String fruitDrop = 'assets/images/fruit-drops2.png'; 
    static const String basket = 'assets/images/imgbin-basket.png'; 
+   static const String fruit = 'assets/images/kisspng-fruit.png';
 }
