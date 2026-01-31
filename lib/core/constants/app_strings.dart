@@ -7,5 +7,6 @@ class AppStrings {
   static const String letsGetStarted = 'Let\'s Get Started';
   static const String firstName = 'What is your first name?';
   static const String startOrdering = 'start Ordering ';
-
+  static const String mybasket = 'My basket';
+  static const String userNameKey = 'user_name';
 }

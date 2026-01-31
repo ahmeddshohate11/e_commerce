@@ -66,6 +66,14 @@ class AppTextStyles {
     letterSpacing: 0.5,
     color: Colors.red,
   );
+  static const TextStyle style14Grey = TextStyle(
+    fontFamily: 'Montserrat',
+    fontSize: 10,
+    fontWeight: FontWeight.w400,
+    height: 1.5,
+    letterSpacing: 0,
+    color: Color(0xff27214D),
+  );
 
 }
   

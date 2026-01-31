@@ -1,6 +1,6 @@
 name: e_commerce
 description: "A new Flutter project."
-publish_to: 'none' 
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -10,9 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  shared_preferences: ^2.5.4
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.2.3
+
 
 dev_dependencies:
   flutter_lints: ^6.0.0
@@ -33,12 +37,13 @@ flutter:
   assets:
     - assets/images/
     - assets/images/svg/
+    - assets/icons/
   fonts:
-  - family: Montserrat
-    fonts:
-      - asset: assets/fonts/Montserrat-Regular.ttf
-      - asset: assets/fonts/Montserrat-SemiBold.ttf
-        weight: 600
-      - asset: assets/fonts/Montserrat-SemiBoldItalic.ttf
-        weight: 600
-        style: italic
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-SemiBoldItalic.ttf
+          weight: 600
+          style: italic

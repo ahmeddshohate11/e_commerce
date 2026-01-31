@@ -1,5 +1,4 @@
-import 'package:e_commerce/core/constants/app_colors.dart';
-import 'package:e_commerce/core/constants/app_strings.dart';
+
 import 'package:e_commerce/core/constants/app_text_styles.dart';
 import 'package:e_commerce/core/widgets/app_text.dart';
 import 'package:flutter/material.dart';
